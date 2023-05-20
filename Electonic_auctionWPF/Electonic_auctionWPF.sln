@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Electonic_auctionWPF", "Ele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionDataLib", "AuctionDataLib\AuctionDataLib.csproj", "{C68281D4-212B-4776-8274-4F0E35F3F889}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionClient", "AuctionClient\AuctionClient.csproj", "{12DC3286-EA47-4031-9050-E303F874AF37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C68281D4-212B-4776-8274-4F0E35F3F889}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C68281D4-212B-4776-8274-4F0E35F3F889}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C68281D4-212B-4776-8274-4F0E35F3F889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DC3286-EA47-4031-9050-E303F874AF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DC3286-EA47-4031-9050-E303F874AF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DC3286-EA47-4031-9050-E303F874AF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DC3286-EA47-4031-9050-E303F874AF37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
