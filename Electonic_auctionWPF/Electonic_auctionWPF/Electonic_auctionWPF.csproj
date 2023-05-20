@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AuctionDataLib\AuctionDataLib.csproj">
+      <Project>{c68281d4-212b-4776-8274-4f0e35f3f889}</Project>
+      <Name>AuctionDataLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
