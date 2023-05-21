@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Class="AuctionDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="" Member="UserBuyer">
+    <Type Name="UserBuyer">
+      <Column Member="buyer_id" Type="System.Int32" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Member="login_buyer" Type="System.String" CanBeNull="false" />
+      <Column Member="password_buyer" Type="System.String" CanBeNull="false" />
+      <Column Member="name_buyer" Type="System.String" CanBeNull="false" />
+      <Column Member="email_buyer" Type="System.String" CanBeNull="false" />
+      <Column Member="telephone_buyer" Type="System.String" CanBeNull="false" />
+      <Association Name="UserBuyer_Order" Member="Order" ThisKey="buyer_id" OtherKey="id_buyer" Type="Order" />
+    </Type>
+  </Table>
+  <Table Name="" Member="Product">
+    <Type Name="Product">
+      <Column Member="product_id" Type="System.Int32" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Member="name_product" Type="System.String" CanBeNull="false" />
+      <Column Member="description" Type="System.String" CanBeNull="true" />
+      <Column Member="amount" Type="System.Int32" CanBeNull="false" />
+      <Column Member="price" Type="System.Int32" CanBeNull="false" />
+      <Column Member="photo" Type="System.String" CanBeNull="false" />
+      <Column Name="" Member="id_of_seller" Type="System.Int32" CanBeNull="false" />
+      <Association Name="Product_Order" Member="Order" ThisKey="product_id" OtherKey="id_product" Type="Order" />
+      <Association Name="UserSeller_Product" Member="UserSeller" ThisKey="id_of_seller" OtherKey="seller_id" Type="UserSeller" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="" Member="Order">
+    <Type Name="Order">
+      <Column Member="id_order" Type="System.Int32" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Member="id_buyer" Type="System.Int32" CanBeNull="false" />
+      <Column Member="id_seller" Type="System.Int32" CanBeNull="false" />
+      <Column Member="amount_product" Type="System.Int32" CanBeNull="false" />
+      <Column Member="price_order" Type="System.Int32" CanBeNull="true" />
+      <Column Member="departure_date" Type="System.DateTime" CanBeNull="true" />
+      <Column Member="receiving_date" Type="System.DateTime" CanBeNull="true" />
+      <Column Member="id_product" Type="System.Int32" CanBeNull="false" />
+      <Association Name="UserBuyer_Order" Member="UserBuyer" ThisKey="id_buyer" OtherKey="buyer_id" Type="UserBuyer" IsForeignKey="true" />
+      <Association Name="Product_Order" Member="Product" ThisKey="id_product" OtherKey="product_id" Type="Product" IsForeignKey="true" />
+      <Association Name="UserSeller_Order" Member="UserSeller" ThisKey="id_seller" OtherKey="seller_id" Type="UserSeller" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="" Member="UserSeller">
+    <Type Name="UserSeller">
+      <Column Member="seller_id" Type="System.Int32" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Member="login_seller" Type="System.String" CanBeNull="false" />
+      <Column Member="password_seller" Type="System.String" CanBeNull="false" />
+      <Column Member="name_seller" Type="System.String" CanBeNull="false" />
+      <Column Member="email_seller" Type="System.String" CanBeNull="false" />
+      <Column Member="telephone_seller" Type="System.String" CanBeNull="false" />
+      <Association Name="UserSeller_Product" Member="Product" ThisKey="seller_id" OtherKey="id_of_seller" Type="Product" />
+      <Association Name="UserSeller_Order" Member="Order" ThisKey="seller_id" OtherKey="id_seller" Type="Order" />
+    </Type>
+  </Table>
+</Database>
