@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Никита\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Univer\\3k6s\\ProjectPr\\Repoz\\Electonic_auctionWPF\\AuctionClient\\AuctionClient.csproj",
+      "projectUniqueName": "D:\\ПопаБоль\\1\\Electonic_auctionWPF\\AuctionClient\\AuctionClient.csproj",
       "projectName": "AuctionClient",
-      "projectPath": "D:\\Univer\\3k6s\\ProjectPr\\Repoz\\Electonic_auctionWPF\\AuctionClient\\AuctionClient.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Univer\\3k6s\\ProjectPr\\Repoz\\Electonic_auctionWPF\\AuctionClient\\obj\\",
+      "projectPath": "D:\\ПопаБоль\\1\\Electonic_auctionWPF\\AuctionClient\\AuctionClient.csproj",
+      "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
+      "outputPath": "D:\\ПопаБоль\\1\\Electonic_auctionWPF\\AuctionClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

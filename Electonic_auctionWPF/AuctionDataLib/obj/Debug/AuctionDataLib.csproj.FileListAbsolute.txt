@@ -4,3 +4,9 @@ D:\Univer\3k6s\ProjectPr\Repoz\Electonic_auctionWPF\AuctionDataLib\obj\Debug\Auc
 D:\Univer\3k6s\ProjectPr\Repoz\Electonic_auctionWPF\AuctionDataLib\obj\Debug\AuctionDataLib.csproj.CoreCompileInputs.cache
 D:\Univer\3k6s\ProjectPr\Repoz\Electonic_auctionWPF\AuctionDataLib\obj\Debug\AuctionDataLib.dll
 D:\Univer\3k6s\ProjectPr\Repoz\Electonic_auctionWPF\AuctionDataLib\obj\Debug\AuctionDataLib.pdb
+D:\ПопаБоль\1\Electonic_auctionWPF\AuctionDataLib\bin\Debug\AuctionDataLib.dll
+D:\ПопаБоль\1\Electonic_auctionWPF\AuctionDataLib\bin\Debug\AuctionDataLib.pdb
+D:\ПопаБоль\1\Electonic_auctionWPF\AuctionDataLib\obj\Debug\AuctionDataLib.csproj.AssemblyReference.cache
+D:\ПопаБоль\1\Electonic_auctionWPF\AuctionDataLib\obj\Debug\AuctionDataLib.csproj.CoreCompileInputs.cache
+D:\ПопаБоль\1\Electonic_auctionWPF\AuctionDataLib\obj\Debug\AuctionDataLib.dll
+D:\ПопаБоль\1\Electonic_auctionWPF\AuctionDataLib\obj\Debug\AuctionDataLib.pdb
