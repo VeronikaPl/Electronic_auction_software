@@ -86,5 +86,10 @@ namespace Electonic_auctionWPF
                 this.grid_with_products.Visibility = Visibility.Visible;
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.grid_for_product.Visibility = Visibility.Visible;
+        }
     }
 }
