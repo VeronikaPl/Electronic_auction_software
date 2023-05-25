@@ -64,7 +64,7 @@
                 <RowDefinition Height="50" />
             </Grid.RowDefinitions>
             <Label Content="Пароль" HorizontalAlignment="Center" FontFamily="Century Gothic" FontWeight="Bold" Foreground="CornflowerBlue" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"  FontSize="20" />
-            <Label Content="Логін" HorizontalAlignment="Center" FontFamily="Century Gothic" FontWeight="Bold" Foreground="CornflowerBlue" Grid.Row="0" Grid.Column="1"  VerticalAlignment="Center"  FontSize="20" BorderThickness="0,0,0,4"  />
+            <Label Content="Логін" HorizontalAlignment="Center" FontFamily="Century Gothic" FontWeight="Bold" Foreground="CornflowerBlue" Grid.Row="0" Grid.Column="1"  VerticalAlignment="Center"  FontSize="20" />
             <TextBox x:Name="login_textBox" Text="{Binding SearchQuery}" Style="{StaticResource WatermarkStyle}" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="30" FontSize="16" FontFamily="Century Gothic" VerticalContentAlignment="Center"/>
             <TextBox x:Name="password_textBox" Text="{Binding SearchQuery}" Style="{StaticResource WatermarkStyle}" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="30" FontSize="16" FontFamily="Century Gothic" VerticalContentAlignment="Center"/>
         </Grid>

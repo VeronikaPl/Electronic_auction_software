@@ -19,6 +19,11 @@ namespace Electonic_auctionWPF
     /// </summary>
     public partial class RegisterForm : Window
     {
+        public string login { get; set; }
+        public string password { get; set; }
+        public string email { get; set; }
+        public string telephone { get; set; }
+        public string name { get; set; }
         public RegisterForm()
         {
             InitializeComponent();
@@ -26,6 +31,11 @@ namespace Electonic_auctionWPF
 
         private void reg_button_Click(object sender, RoutedEventArgs e)
         {
+            email = this.email_textBox.Text;
+            telephone=this.tel_textBox.Text;
+            name = this.name_textBox.Text;
+            login = this.login_textBox.Text;
+            password = this.password_textBox.Text;
             this.Close();
         }
     }
